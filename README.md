@@ -16,6 +16,8 @@ grifado:
 ~~abcd~~ <br>
 `~~seu texto grifado~~`
 
+<br>
+
 <details>
 <summary>combinações</summary>
 
