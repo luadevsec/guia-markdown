@@ -236,21 +236,23 @@ para criar item de lista utilize `* ` ou `- `.
 >
 > você pode utilizar os dois simbolos `-` e `*` na mesma lista para criar itens desta lista mas observe que existe uma interação diferente utilizando o markdown.
 >
-><details>
-><summary>ler mais...</summary>
-> basicamente ele vai interpretar sendo listas diferentes e vai criar um espaçamento entre essas listas diferentes (mesmo fazendo parte da mesma lista)<br><br>
->
-> observe este exemplo:<br>
-> se tivermos uma lista junta com elementos de tipos diferentes teremos esse resultado ![lista segmentada](./lista%201.png)
-> uma lista que se trasforma em duas listas separadas.<br><br> agora veja isso, se tivermos uma lista espaçada mas com um elemento do tipo 2 na lista 1 teremos novamente duas listas 
-> ![lista segmentada](./lista%202.png) uma comprimida do tipo 1 `*` e uma espaçada do tipo 2 `-`
-> <br><br>
-> e se tiramos o espaçamento as listas se ordenam da mesma forma 
-> ![lista segmentada](./lista%203.png)porem continua sendo duas listas separadas e tecnicamente distintas<br><br>
->
-> por fim observe essa imagem ilustrativa das mesmas duas listas com um dos sinais intercalados no meio ![lista segmentada](./lista%204.png)
->
-> dessa forma criamos literalmente 4 listas pois o markdown vai interpretar cada troca de sinal sendo uma lista nova de forma que um sinal intercalado criaria 3 listas diferentes
->
-> dessa forma lembre-se de usar o mesmo padrão sempre ou alterne se estiver lidando com listas diferentes no mesmo local
-></details>
+<details>
+<summary>ler mais...</summary>
+ basicamente ele vai interpretar sendo listas diferentes e vai criar um espaçamento entre essas listas diferentes (mesmo fazendo parte da mesma lista)<br><br>
+
+ observe este exemplo:<br>
+ se tivermos uma lista junta com elementos de tipos diferentes teremos esse resultado ![lista segmentada](./lista%201.png)
+ uma lista que se trasforma em duas listas separadas.<br><br> agora veja isso, se tivermos uma lista espaçada mas com um elemento do tipo 2 na lista 1 teremos novamente duas listas 
+ ![lista segmentada](./lista%202.png) 
+ uma comprimida do tipo 1 `*` e uma espaçada do tipo 2 `-`
+ <br><br>
+ e se tiramos o espaçamento as listas se ordenam da mesma forma 
+ ![lista segmentada](./lista%203.png)
+ porem continua sendo duas listas separadas e tecnicamente distintas<br><br>
+
+ por fim observe essa imagem ilustrativa das mesmas duas listas com um dos sinais intercalados no meio ![lista segmentada](./lista%204.png)
+
+ dessa forma criamos literalmente 4 listas pois o markdown vai interpretar cada troca de sinal sendo uma lista nova de forma que um sinal intercalado criaria 3 listas diferentes
+
+ >dessa forma lembre-se de usar o mesmo padrão sempre ou alterne se estiver lidando com listas diferentes no mesmo local
+</details>
