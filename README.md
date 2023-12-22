@@ -16,7 +16,7 @@ feito para consulta e não para aprender, que quer aprender veja minha [aula com
 
 
 
-Texto simples <mark id= "text">
+Texto simples <a id="text"></a>
 ------------------------------
 normal: 
 abcd<br>
@@ -52,7 +52,7 @@ combina com [tabelas](#tables) e [checklists](#checklist)
 
 -----------------------------
 
-Titulos <mark id="title">
+Titulos <a id="title"></a>
 ------------------------------
 
 
@@ -94,7 +94,7 @@ seu titulo de nivel 2
 
 ------------------------------------------
 
-Tabelas <mark id="tables">
+Tabelas <a id="tables"></a>
 ------------------------------------------
 
 definindo colunas:
@@ -219,10 +219,51 @@ combina com [codificação](#code)
 ----------------
 
 
-Listas <mark id="list">
+Listas <a id="list"></a>
 ----------------------------------------
 
-Listas desordenadas:
+
+listas ordenadas `7. `:
+
+
+1. numero 1
+2. numero 2
+3. numero 3
+   1. numero 1 do 3
+      1. numero 1 do 1 do 3
+   2. numero 2 do 3
+      1. numero 1 do 2 do 3
+      2. numero 2 do 2 do 3
+4.   numero 4 
+
+<details>
+<summary>codigo de lista</summary>
+
+```markdown
+1. numero 1
+2. numero 2
+3. numero 3
+   1. numero 1 do 3
+      1. numero 1 do 1 do 3
+   1. numero 2 do 3
+      1. numero 1 do 2 do 3
+      1. numero 2 do 2 do 3
+81. numero 4 
+```
+
+</details>
+
+>NOTE
+>
+> não importa o numero que você utilize no item da lista, ele sempre vai ordenar e colocar o numero correto do elemento. para ser uma lista ordenada basta ter no numero porem a lista começa a partir do primeiro numero que você utilizou, exemplo:
+>
+> 8. comçando do 8
+> 10. outro
+> 2. outro
+
+<br><br>
+
+Listas desordenadas `- `:
 
 para criar item de lista utilize `* ` ou `- `.
 
@@ -248,7 +289,6 @@ para criar item de lista utilize `* ` ou `- `.
 -  outro item de camada 1
 
 ```
-
 
 </details>
 
@@ -284,7 +324,7 @@ combina com [checklist](#checklist)
 
 --------------------------
 
-Codificação <mark id="code">
+Codificação <a id="code"></a>
 -------------------------------
 
 linha de codigo: ``` ` ` ```
@@ -497,7 +537,7 @@ export default GreetingComponent;
 
 ----------------------------------------------
 
-Notes <mark id="notes">
+Notes <a id="notes"></a>
 ---------------------------------
 
 notas simples `> `:
@@ -555,7 +595,7 @@ combina com [textos simples](#text)
 ---------------------------------------
 
 
-checklist
+checklist <a id="checklist"></a>
 -----------------------------------------
 
 checkbox vazia `[ ]`:
@@ -604,7 +644,7 @@ combina com [texto simples](#text) e [listas](#list)
 
 ------------------------------------
 
-Links e imagens <mark id="link">
+Links e imagens <a id="link"></a>
 -------------------------------------
 ```
 Comming soon, to cansada vou dormir kkkk
