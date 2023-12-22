@@ -1,4 +1,4 @@
-Texto simples
+Texto simples <mark id= "text">
 ------------------------------
 normal: 
 abcd<br>
@@ -30,11 +30,11 @@ resultado | italico | negrito | grifado | codigo
 
 </details>
 
-combina com [tabelas]() e [checklists]()
+combina com [tabelas](#tables) e [checklists](#checklist)
 
 -----------------------------
 
-Titulos
+Titulos <mark id="title">
 ------------------------------
 
 
@@ -76,7 +76,7 @@ seu titulo de nivel 2
 
 ------------------------------------------
 
-Tabelas
+Tabelas <mark id="tables">
 ------------------------------------------
 
 definindo colunas:
@@ -194,11 +194,14 @@ markdown | No |Yes| `> hello world`
 ```
 </details>
 
-combina com [codificação]()
+combina com [codificação](#code)
 
 <br>
 
-Listas
+----------------
+
+
+Listas <mark id="list">
 ----------------------------------------
 
 Listas desordenadas:
@@ -256,3 +259,222 @@ para criar item de lista utilize `* ` ou `- `.
 
  >dessa forma lembre-se de usar o mesmo padrão sempre ou alterne se estiver lidando com listas diferentes no mesmo local
 </details>
+
+combina com [checklist](#checklist)
+
+<br>
+
+--------------------------
+
+Codificação <mark id="code">
+-------------------------------
+
+linha de codigo: ``` ` ` ```
+
+
+<details>
+<summary>exemplo de linha</summary>
+
+
+    `seu codigo`
+
+
+</details><br>
+
+
+bloco de codigo:
+```
+    ```
+    ```
+```
+
+<details>
+<summary>exemplo de bloco</summary>
+
+
+    ```
+    seu codigo 
+    em bloco
+    ```
+
+</details><br>
+
+bloco interpretado:
+
+    ```markdown
+
+    ```
+
+<details>
+<summary>exemplo interpretado</summary>
+
+
+```markdown
+# codigo
+* seu codigo com interpretação em
+    * markdown
+    * html
+    - python
+    - javascript
+**o que quiser**
+~~e souber~~
+```
+<br>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<style>
+    .red {
+        background-color: red !important;
+    }
+</style>
+
+<body>
+    <main class="purple">
+        <p id="hw">hello world</p>
+    </main>
+</body>
+```
+
+</details><br>
+
+
+<details>
+<summary>JavaScript</summary>
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+    const greeting = {
+        name: 'world',
+        getMessage: function() {
+            return `Hello, ${this.name}!`;
+        }
+    };
+
+    const hwElement = document.getElementById('hw');
+    hwElement.textContent = greeting.getMessage();
+});
+```
+
+</details><br>
+
+
+<details>
+<summary>CSS</summary>
+
+```css
+.red {
+    background-color: red !important;
+}
+
+.purple {
+    color: purple;
+}
+```
+
+</details><br>
+
+
+<details>
+<summary>Python</summary>
+
+```Python
+class Greeting:
+    def __init__(self, name):
+        self.name = name
+
+    def get_message(self):
+        return f"Hello, {self.name}!"
+
+greeting = Greeting('world')
+print(greeting.get_message())
+```
+
+</details><br>
+
+
+<details>
+<summary>Ruby</summary>
+
+```ruby
+class Greeting
+  def initialize(name)
+    @name = name
+  end
+
+  def get_message
+    "Hello, #{@name}!"
+  end
+end
+
+greeting = Greeting.new('world')
+puts greeting.get_message
+```
+
+</details><br>
+
+
+<details>
+<summary>C#</summary>
+
+```C#
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Greeting greeting = new Greeting("world");
+        Console.WriteLine(greeting.GetMessage());
+    }
+}
+
+class Greeting
+{
+    private string Name;
+
+    public Greeting(string name)
+    {
+        Name = name;
+    }
+
+    public string GetMessage()
+    {
+        return $"Hello, {Name}!";
+    }
+}
+```
+
+</details><br>
+
+
+<details>
+<summary>React</summary>
+
+```jsx
+import React, { useState, useEffect } from 'react';
+
+const GreetingComponent = () => {
+    const [greeting, setGreeting] = useState({ name: 'world' });
+
+    useEffect(() => {
+        setGreeting((prev) => ({ ...prev, message: `Hello, ${prev.name}!` }));
+    }, []);
+
+    return (
+        <div className="purple">
+            <p id="hw">{greeting.message}</p>
+        </div>
+    );
+};
+
+export default GreetingComponent;
+```
+</details><br>
+
+
+</details><br>
+
+
