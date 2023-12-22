@@ -194,3 +194,30 @@ markdown | No |Yes| `> hello world`
 
 combina com [codificação]()
 
+<br>
+
+Listas
+----------------------------------------
+
+Listas desordenadas:
+
+para criar item de lista utilize `* ` ou `- `.
+
+- item de camada 1
+  - item de camada 2
+    - item de camada 3 
+      - item de camada 4
+    - outro item de camada 3 
+  - outro item de camada 2
+-  outro item de camada 1
+
+* a
+* a
+
+
+- a
+* a
+
+* a
+* a
+
