@@ -477,4 +477,120 @@ export default GreetingComponent;
 
 </details><br>
 
+----------------------------------------------
+
+Notes <mark id="notes">
+---------------------------------
+
+notas simples `> `:
+
+```markdown
+> NOTE 
+>
+> eu sou um bloco de observação
+```
+
+<details>
+<summary>resultado</summary>
+
+>NOTE 
+>
+> eu sou um bloco de observação
+
+</details><br>
+
+notas complexas `>> `:
+
+```markdown
+> NOTE 
+>
+> eu sou um bloco de observação
+>> com outra observação dentro
+>>
+>>> que também observa
+>>
+>>> e é observado
+```
+
+<details>
+<summary>resultado</summary>
+
+> NOTE 
+>
+> eu sou um bloco de observação
+>> com outra observação dentro
+>>
+>>> que também observa
+>>
+>><br>
+>>
+>>> e é observado
+
+</details><br>
+
+> NOTE
+>
+> combina com qualquer outro elemento como listas, imagem, tabelas e outros. basta colocar o simbolo > e o outro simbolo que queira utilizar, como > * para listas ou > ` para codigos
+
+combina com [textos simples](#text)
+
+---------------------------------------
+
+
+checklist
+-----------------------------------------
+
+checkbox vazia `[ ]`:
+```markdown
+- [ ] item a fazer
+```
+- [ ] item a fazer
+---
+
+<br>
+
+
+checkbox cheia `[x]`:
+```markdown
+- [x] item feito
+```
+- [x] item feito<br>
+---
+
+<br>
+
+checkbox cheia grifada `[x]`:
+```markdown
+- [x] ~~item feito grifado~~
+```
+- [x] ~~item feito grifado~~<br>
+---
+
+<br>
+
+checklist:
+
+  - [ ] item
+  - [ ] outro
+    - [ ]  sub item
+  * [ ] mais item 
+  
+  <br>
+
+  >NOTE
+  >
+  > as regras de lista se aplicam a checklist então consulte o funcionamento de [listas e simbolos ](#list)
+
+
+combina com [texto simples](#text) e [listas](#list)
+
+------------------------------------
+
+Links e imagens <mark id="link">
+-------------------------------------
+```
+Comming soon, to cansada vou dormir kkkk
+```
+
+
 
