@@ -1,3 +1,21 @@
+Guia de markdown da Lua
+=============================
+feito para consulta e não para aprender, que quer aprender veja minha [aula completa de markdown](https://www.youtube.com/watch?v=usFlMsHY9XU)
+
+### navegação rapida
+1. [texto simples](#text)
+1. [titulos](#title)
+2. [tabelas](#tables)
+3. [listas](#list)
+4. [codificação](#code)
+5. [notas](#notes)
+6. [checklist](#checklist)
+7. [links e imagens](#link)
+9. [sinergia com html](#html)
+8. [outros](#outros)
+
+
+
 Texto simples <mark id= "text">
 ------------------------------
 normal: 
