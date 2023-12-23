@@ -1,6 +1,6 @@
 Guia de markdown da Lua
 =============================
-feito para consulta e não para aprender, que quer aprender veja minha [aula completa de markdown](https://www.youtube.com/watch?v=usFlMsHY9XU)
+material feito para consulta  da linguagem markdown e não para aprender-la, se você quer aprender veja minha [aula completa de markdown](https://www.youtube.com/watch?v=usFlMsHY9XU)
 
 ### navegação rapida
 1. [texto simples](#text)
